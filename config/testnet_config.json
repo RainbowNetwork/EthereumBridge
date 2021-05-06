@@ -8,8 +8,8 @@
 
   "signatures_threshold": 1,
 
-  "eth_node": "http://52.148.209.123:8545/",
-  "network": "rinkeby",
+  "eth_node": "https://rpc-mumbai.matic.today",
+  "network": "mumbai",
 
   "eth_confirmations": 2,
 
@@ -17,7 +17,7 @@
   "eth_private_key": "",
   "pkcs11_module": "/usr/lib/softhsm/libsofthsm2.so",
 
-  "multisig_wallet_address": "0xFA22c1BF3b076D2B5785A527C38949be47Ea1082",
+  "multisig_wallet_address": "0xd6C2c41C8c2e6EADe0b78E9FD619cECD9eFca9F8",
   "eth_start_block": 1,
   "secretcli_home": "/root/.secretcli",
   "secret_node": "tcp://bootstrap.secrettestnet.io:26657",
