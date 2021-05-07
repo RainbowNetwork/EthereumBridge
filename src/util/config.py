@@ -83,7 +83,7 @@ class Config(Model):
 
 def get_config(config_file: str = None) -> Config:
     if not config_file:
-        config_file = env_defaults[os.getenv('SWAP_ENV', 'LOCAL')]
+        config_file = env_defaults[os.getenv('SWAP_ENV', 'TESTNET')]
 
     logger.info(f'Loading custom configuration: {config_file}')
     try:

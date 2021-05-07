@@ -1,3 +1,2 @@
 pytest~=6.0.2
-eth-brownie
-solc
+eth-brownie~=1.13
